@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "First meetup",
+    "image": "https://images.pexels.com/photos/4916146/pexels-photo-4916146.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "address": "some address",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, tenetur dolor. Nostrum officia, eveniet fugit quod dolore dicta eligendi, sapiente blanditiis sit, consequatur illo? Perspiciatis molestias eligendi consectetur cumque eius."
+  },
+  {
+    "id": 2,
+    "title": "Second meetup",
+    "image": "https://images.pexels.com/photos/4957646/pexels-photo-4957646.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "address": "modern cafe",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, tenetur dolor. Nostrum officia, eveniet fugit quod dolore dicta eligendi, sapiente blanditiis sit, consequatur illo? Perspiciatis molestias eligendi consectetur cumque eius."
+  },
+  {
+    "id": 3,
+    "title": "Third meetup",
+    "image": "https://images.pexels.com/photos/3888048/pexels-photo-3888048.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "address": "Street cafe",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, tenetur dolor. Nostrum officia, eveniet fugit quod dolore dicta eligendi, sapiente blanditiis sit, consequatur illo? Perspiciatis molestias eligendi consectetur cumque eius."
+  },
+  {
+    "id": 4,
+    "title": "Fourth Meetup",
+    "image": "https://images.pexels.com/photos/5273514/pexels-photo-5273514.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+    "address": "Medieval stone castle under gloomy",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, tenetur dolor. Nostrum officia, eveniet fugit quod dolore dicta eligendi, sapiente blanditiis sit, consequatur illo? Perspiciatis molestias eligendi consectetur cumque eius."
+  }
+]

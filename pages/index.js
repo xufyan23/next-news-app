@@ -1,16 +1,18 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Header from '../components/header'
-import styles from '../styles/Home.module.css'
+import MeetupList from '../components/meetups/MeetupList';
+import { useState } from 'react';
+import meetupData from '../Data/meetupData.json';
+import { useSelector, useDispatch } from "react-redux";
+function Home () {
+  const [item, setItem] = useState([...meetupData]);
+  const addMeetup = useSelector((state) => state.appReducer.meetData);
+  console.log(addMeetup)
+  const dispatch = useDispatch();
 
-export default function Home() {
   return (
     <>
-      <Header/>
-      <div div className = { `${styles.main} gradient-background` } >
-        <h1>Next JS News App</h1>
-        <p>Your one stop for the latest news articles</p>
-      </div>
+      <MeetupList meetup={addMeetup}/>
     </>
-  )
+  );
 }
+
+export default Home;
