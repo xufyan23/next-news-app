@@ -22,7 +22,7 @@ const EOM = ({employee}) => {
 //server side rendering
 export const getServerSideProps = async PageContext => {
 	const resp = await fetch (
-		'http://localhost:3000/employeeOfTheMonth'
+		'https://my-json-server.typicode.com/xufyan23/next-news-app/employeeOfTheMonth'
 	);
 	const employee = await resp.json();
 
