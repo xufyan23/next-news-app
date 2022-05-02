@@ -59,3 +59,10 @@ a {
     background-position: 0% 50%;
   }
 }
+
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
